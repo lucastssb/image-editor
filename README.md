@@ -1,34 +1,62 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<h1 align="center">
+    Image Editor
+</h1>
 
-## Getting Started
+<p align="center">
+  <a href="#-project">Project</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#rocket-technologies">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#information_source-how-to-run">How to run</a>&nbsp;&nbsp;&nbsp;
 
-First, run the development server:
+</p>
+
+<br>
+
+## 💻 Project
+
+This is simple image editor made with ReactJS, NextJS and Typescript.
+
+## :rocket: Technologies
+
+This app was made using the following technologies:
+- [ReactJS][react]
+- [NextJS][next]
+- [Yarn][yarn]
+- [NodeJS][node]
+- [Typescript][typescript]
+
+## :information_source: How To Run
+
+To clone and run this application, you'll need [Git](https://git-scm.com) + [NodeJS][node] + [Yarn][yarn] installed on your computer.
+
+### Clone and Run the App
+
+<br/>
 
 ```bash
-npm run dev
-# or
-yarn dev
+# Clone this repository
+$ git clone https://github.com/lucastssb/image-editor.git
+$ git clone git@github.com:lucastssb/image-editor.git
+
+# Go into the repository
+$ cd image-editor
+
+# Install dependencies
+$ yarn install
+
+# Run the app
+$ yarn next dev
+
+# Open the app
+# open http://localhost:3000 on your browser
+
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+<br>
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+Made with ♥ by Lucas Barbosa :wave: [Get in touch!](https://www.linkedin.com/in/lucas-barbosa-60b56416b/)
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
-
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+[react]: https://reactjs.org/
+[next]: https://nextjs.org/
+[yarn]: https://yarnpkg.com/
+[node]: https://nodejs.org/en/
+[typescript]: https://www.typescriptlang.org/
